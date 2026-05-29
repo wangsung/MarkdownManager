@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+.venv/
+env/
+venv/
+
+# Build outputs
+dist/
+
+# Local Configurations & Database
+config.json
+
+# Hidden application metadata & Activity logs
+.mdman/
+*.log
+
+# Old deprecated server entry points (renamed to mdman_server.py)
+server.py
+main.py
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Python compiled cache
+__pycache__/
+*.py[cod]
